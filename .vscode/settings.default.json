@@ -1,5 +1,4 @@
 {
-  "editor.formatOnPaste": false,
   "editor.formatOnSaveMode": "file",
   "editor.insertSpaces": true,
   "editor.rulers": [88],
