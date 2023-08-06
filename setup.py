@@ -4,7 +4,7 @@ from setuptools import find_packages, setup
 
 MIN_PY_VERSION = "3.10"
 PACKAGES = find_packages(exclude=["tests", "tests.*"])
-VERSION = "49"
+VERSION = "51"
 
 setup(
     name="aiounifi",
@@ -17,7 +17,7 @@ setup(
     license="MIT",
     url="https://github.com/Kane610/aiounifi",
     download_url=f"https://github.com/Kane610/aiounifi/archive/v{VERSION}.tar.gz",
-    install_requires=["aiohttp", "async_timeout", "orjson"],
+    install_requires=["aiohttp", "async_timeout", "orjson", "segno"],
     tests_require=["aioresponses", "pytest", "pytest-asyncio", "pytest-aiohttp"],
     keywords=["unifi", "homeassistant"],
     classifiers=["Natural Language :: English", "Programming Language :: Python :: 3"],
